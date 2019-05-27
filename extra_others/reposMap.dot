@@ -1,0 +1,89 @@
+digraph map {
+
+	rankdir = LR
+
+    node [
+        shape = "record"
+		style = "filled"
+    ]
+
+	//--------------------self---------------------------
+	node [
+		fillcolor="green"
+	]
+	// blog
+	_1guo122[label="guo122.github.io"]
+
+	// base
+	_2BuildScript[label="BuildScript"]
+	_3gzyBase[label="gzyBase"]
+
+	// tools
+	_4gzyTools[label="gzyTools"]
+	_5ggShell[label="ggShell"]
+
+	// study
+	_6unpv1Study[label="unpv1Study"]
+	_7YellowS[label="YellowS"]
+	_8SxB[label="SxB"]
+	_9old_SxB[label="old_SxB";fillcolor="red"]
+
+	//--------------------fork---------------------------
+	node [
+		fillcolor="yellow"
+	]
+	// theme
+	_10retlab[label="benbalter/retlab"]
+
+	// base
+	_11polly[label="ruslo/polly"]
+	_12ioscmake[label="leetal/ios-cmake"]
+	_13googletest[label="google/googletest"]
+
+	// sxb
+	_14bgfx[label="bkaradzic/bgfx"]
+	_15bx[label="bkaradzic/bx"]
+	_16bimg[label="bkaradzic/bimg"]
+	_17SFML[label="SFML/SFML"]
+
+	// renderer
+	_18granite[label="Themaister/Granite"]
+	_19theForge[label="ConfettiFX/The-Forge"]
+
+	// tools
+	_20AppIcon[label="Nonchalant/AppIcon"]
+	_21git001[label="chyojn/git-0.01"]
+	_22iosOncenote[label="chenyufeng1991/iOS-Oncenote"]
+
+	// ssh
+	_23sshIOS[label="x2on/libssh2-for-iOS"]
+	_24sslIOS[label="x2on/OpenSSL-for-iPhone"]
+	_25libgcryptIOS[label="x2on/libgcrypt-for-ios"]
+
+	// ocr
+	_26tesseract[label="tesseract-ocr/tesseract"]
+	_27tesseractIOS[label="gali8/Tesseract-OCR-iOS"]
+
+	//------------------relationship------------------
+
+	_10retlab		->		_1guo122
+
+	_3gzyBase		->		_4gzyTools
+
+	_11polly	->		_2BuildScript
+	_12ioscmake -> 	_2BuildScript
+
+	_14bgfx	-> 		_9old_SxB
+	_15bx 		->		_9old_SxB
+	_16bimg 	->		_9old_SxB
+	_17SFML	->		_9old_SxB
+
+	_20AppIcon -> 		_9old_SxB
+
+	_9old_SxB -> 		_8SxB
+
+	_24sslIOS -> _23sshIOS
+	_25libgcryptIOS -> _23sshIOS
+
+	_26tesseract -> _27tesseractIOS
+}
