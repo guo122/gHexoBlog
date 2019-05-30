@@ -1,6 +1,7 @@
 
 ---
 title: Diskutil
+date: 2019-05-27 12:00:00
 tags: disk
 category: mac
 ---

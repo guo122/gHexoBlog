@@ -1,6 +1,7 @@
 
 ---
 title: Linux Terminal
+date: 2019-05-27 12:00:00
 tags: terminal
 category: linux
 ---

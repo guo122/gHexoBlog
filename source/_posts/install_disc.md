@@ -1,6 +1,7 @@
 
 ---
 title: 安装介质
+date: 2019-05-27 12:00:00
 tags: init
 category: install
 ---

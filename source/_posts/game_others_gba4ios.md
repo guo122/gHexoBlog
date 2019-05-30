@@ -1,6 +1,7 @@
 
 ---
 title: GBA4iOS
+date: 2019-05-27 12:00:00
 tags: others
 category: [game, others]
 ---

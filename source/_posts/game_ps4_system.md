@@ -1,6 +1,7 @@
 
 ---
 title: PS4System
+date: 2019-05-27 12:00:00
 tags: gTips
 category: [game, ps4]
 ---

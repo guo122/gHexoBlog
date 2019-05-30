@@ -1,6 +1,7 @@
 
 ---
 title: iOS Crash
+date: 2019-05-27 12:00:00
 tags: crash
 category: ios
 ---

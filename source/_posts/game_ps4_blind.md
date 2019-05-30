@@ -1,6 +1,7 @@
 
 ---
 title: PS4盲操
+date: 2019-05-27 12:00:00
 tags: gtips
 category: [game, ps4]
 ---

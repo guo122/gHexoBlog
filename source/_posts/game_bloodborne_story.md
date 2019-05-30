@@ -1,6 +1,7 @@
 
 ---
 title: Bloodborne故事参考
+date: 2019-05-27 12:00:00
 tags: story
 category: [game, bloodborne]
 ---

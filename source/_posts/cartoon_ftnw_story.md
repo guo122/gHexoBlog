@@ -1,6 +1,7 @@
 
 ---
 title: 自新世界故事
+date: 2019-05-27 12:00:00
 tags: Story
 category: [cartoon, 新世界より]
 ---

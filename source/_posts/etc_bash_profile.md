@@ -1,6 +1,7 @@
 
 ---
 title: bashProfile
+date: 2019-05-27 12:00:00
 tags: config
 category: etc
 ---
